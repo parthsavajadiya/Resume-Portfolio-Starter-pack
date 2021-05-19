@@ -22,16 +22,11 @@ const Footer = ({ data }) => {
           <ul className="copyright">
             <li>
               Made by{" "}
-              <a title="PAPA" href="http://www.papareact.com/">
+              <a title="PAPA" href="http://tankarcomputer.netlify.app">
                 Parth Savajadiya (Tankar Computer)
               </a>
             </li>
           </ul>
-        </div>
-        <div id="go-top">
-          <a className="smoothscroll" title="Back to Top" href="#home">
-            <i className="icon-up-open"></i>
-          </a>
         </div>
       </div>
     </footer>

@@ -60,7 +60,7 @@ const Header = ({ data }) => {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
-            <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
+            <TypeWriter typing={0.7}>{name ? `I'm ${name}.` : null}</TypeWriter>
           </h1>
           <h3>
             Based in {city}. <span>{occupation}</span>. {description}.
@@ -69,12 +69,6 @@ const Header = ({ data }) => {
           <ul className="social">{networks}</ul>
         </div>
       </div>
-
-      <p className="scrolldown">
-        <a className="smoothscroll" href="#about">
-          <i className="icon-down-circle"></i>
-        </a>
-      </p>
     </header>
   );
 };
